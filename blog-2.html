@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>접대 장소 추천 | 서울 비즈니스 모임 업종별 비교 분석 가이드</title>
+    <meta name="description" content="성공적인 비즈니스 모임을 위한 서울 내 접대 장소 추천 가이드입니다. 셔츠룸, 룸싸롱, 텐프로, 가라오케 등 다양한 업종의 특징과 선택 기준을 객관적으로 비교해 드립니다.">
+    <meta name="keywords" content="접대 장소 추천, 서울 비즈니스 모임, 회식 장소, 룸싸롱 비교, 가라오케 추천, 비즈니스클럽">
+    <link rel="canonical" href="https://story.roomlab-dangsan.xyz/blog-2.html">
+    
+    <!-- BPAAS Design System Metadata -->
+    <meta name="bpaas-design-system" content="midnight-glass">
+    <meta name="bpaas-design-theme" content="kr-midnight-glass">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://story.roomlab-dangsan.xyz/blog-2.html">
+    <meta property="og:title" content="접대 장소 추천 | 서울 비즈니스 모임 업종별 비교 분석 가이드">
+    <meta property="og:description" content="성공적인 비즈니스 모임을 위한 서울 내 접대 장소 추천 가이드입니다. 셔츠룸, 룸싸롱, 텐프로, 가라오케 등 다양한 업종의 특징과 선택 기준을 객관적으로 비교해 드립니다.">
+
+    <!-- Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <style>
+        /* CSS Reset & Editorial Variables */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        :root {
+            --bg-base: #07090e;
+            --bg-surface: rgba(15, 22, 36, 0.7);
+            --bg-glass: rgba(255, 255, 255, 0.03);
+            --border-glass: rgba(255, 255, 255, 0.07);
+            --text-primary: #f1f5f9;
+            --text-muted: #94a3b8;
+            --accent-gold: #e2b857;
+            --accent-gold-hover: #f3d382;
+            --accent-glow: rgba(226, 184, 87, 0.15);
+            --font-serif: 'Cinzel', 'Noto Serif KR', serif;
+            --font-sans: 'Noto Sans KR', sans-serif;
+            --transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        body {
+            background-color: var(--bg-base);
+            color: var(--text-primary);
+            font-family: var(--font-sans);
+            line-height: 1.7;
+            letter-spacing: -0.01em;
+            overflow-x: hidden;
+            position: relative;
+        }
+
+        /* Ambient Orbs */
+        body::before, body::after {
+            content: "";
+            position: absolute;
+            width: 500px;
+            height: 500px;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(226, 184, 87, 0.05) 0%, rgba(0,0,0,0) 70%);
+            z-index: -1;
+            pointer-events: none;
+        }
+        body::before {
+            top: 10%;
+            left: -10%;
+        }
+        body::after {
+            bottom: 20%;
+            right: -10%;
+        }
+
+        /* Layout - Single Column Narrative Flow */
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Header & Navigation */
+        header {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(7, 9, 14, 0.8);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border-bottom: 1px solid var(--border-glass);
+            transition: var(--transition);
+        }
+        .nav-inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 80px;
+        }
+        .logo {
+            font-family: var(--font-serif);
+            font-size: 1.4rem;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            color: var(--accent-gold);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .logo span {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            font-family: var(--font-sans);
+            font-weight: 300;
+        }
+        .nav-links {
+            display: flex;
+            gap: 32px;
+            list-style: none;
+        }
+        .nav-links a {
+            color: var(--text-muted);
+            text-decoration: none;
+            font-size: 0.95rem;
+            font-weight: 500;
+            transition: var(--transition);
+        }
+        .nav-links a:hover {
+            color: var(--accent-gold);
+        }
+
+        /* Hero Editorial Section */
+        .hero {
+            padding: 120px 0 80px;
+            text-align: center;
+            position: relative;
+        }
+        .hero-tag {
+            font-family: var(--font-serif);
+            font-size: 0.9rem;
+            color: var(--accent-gold);
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            margin-bottom: 16px;
+            display: inline-block;
+        }
+        .hero h1 {
+            font-family: var(--font-serif);
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            line-height: 1.25;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 24px;
+            word-break: keep-all;
+        }
+        .hero p {
+            font-size: 1.15rem;
+            color: var(--text-muted);
+            max-width: 720px;
+            margin: 0 auto;
+            word-break: keep-all;
+        }
+
+        /* Editorial Intro Panel */
+        .intro-panel {
+            background: var(--bg-surface);
+            border: 1px solid var(--border-glass);
+            border-radius: 16px;
+            padding: 40px;
+            margin-bottom: 80px;
+            position: relative;
+            overflow: hidden;
+            backdrop-filter: blur(12px);
+        }
+        .intro-panel::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 4px;
+            height: 100%;
+            background: var(--accent-gold);
+        }
+        .intro-text {
+            font-size: 1.05rem;
+            color: var(--text-primary);
+            margin-bottom: 16px;
+        }
+        .intro-anecdote {
+            font-style: italic;
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            border-left: 2px solid rgba(255,255,255,0.1);
+            padding-left: 16px;
+            margin-top: 20px;
+        }
+
+        /* Comparison Grid Section */
+        .section-title {
+            font-family: var(--font-serif);
+            font-size: 2rem;
+            color: var(--text-primary);
+            margin-bottom: 40px;
+            text-align: center;
+            letter-spacing: -0.02em;
+        }
+        .section-title span {
+            color: var(--accent-gold);
+        }
+
+        .comparison-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 24px;
+            margin-bottom: 80px;
+        }
+
+        .comp-card {
+            background: var(--bg-glass);
+            border: 1px solid var(--border-glass);
+            border-radius: 16px;
+            padding: 32px;
+            transition: var(--transition);
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .comp-card:hover {
+            transform: translateY(-8px);
+            border-color: var(--accent-gold);
+            box-shadow: 0 12px 30px var(--accent-glow);
+        }
+        .comp-tag {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--accent-gold);
+            margin-bottom: 12px;
+            font-weight: 700;
+        }
+        .comp-name {
+            font-family: var(--font-serif);
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+        .comp-desc {
+            font-size: 0.95rem;
+            color: var(--text-muted);
+            margin-bottom: 24px;
+            min-height: 70px;
+        }
+        .comp-features {
+            list-style: none;
+            border-top: 1px solid var(--border-glass);
+            padding-top: 20px;
+            margin-bottom: 24px;
+        }
+        .comp-features li {
+            font-size: 0.9rem;
+            color: var(--text-primary);
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .comp-features li::before {
+            content: "•";
+            color: var(--accent-gold);
+            font-weight: bold;
+        }
+        .comp-badge {
+            background: rgba(226, 184, 87, 0.1);
+            color: var(--accent-gold);
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            align-self: flex-start;
+        }
+
+        /* Matrix Table Section */
+        .matrix-section {
+            margin-bottom: 80px;
+        }
+        .matrix-wrapper {
+            width: 100%;
+            overflow-x: auto;
+            background: var(--bg-surface);
+            border: 1px solid var(--border-glass);
+            border-radius: 16px;
+            backdrop-filter: blur(12px);
+        }
+        .matrix-table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            min-width: 600px;
+        }
+        .matrix-table th, .matrix-table td {
+            padding: 20px 24px;
+            border-bottom: 1px solid var(--border-glass);
+        }
+        .matrix-table th {
+            font-family: var(--font-serif);
+            font-weight: 600;
+            color: var(--accent-gold);
+            font-size: 1rem;
+            background: rgba(255, 255, 255, 0.01);
+        }
+        .matrix-table td {
+            font-size: 0.95rem;
+            color: var(--text-primary);
+        }
+        .matrix-table tr:last-child td {
+            border-bottom: none;
+        }
+        .matrix-table tr:hover {
+            background: rgba(255,255,255,0.02);
+        }
+
+        /* Editorial Advice Section */
+        .advice-section {
+            background: linear-gradient(135deg, rgba(15,22,36,0.8) 0%, rgba(7,9,14,0.9) 100%);
+            border: 1px solid var(--border-glass);
+            border-radius: 16px;
+            padding: 48px;
+            margin-bottom: 80px;
+        }
+        .advice-header {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+        .advice-header h3 {
+            font-family: var(--font-serif);
+            font-size: 1.5rem;
+            color: var(--accent-gold);
+        }
+        .advice-content p {
+            font-size: 1.05rem;
+            color: var(--text-muted);
+            margin-bottom: 16px;
+            line-height: 1.8;
+        }
+
+        /* FAQ Section */
+        .faq-section {
+            margin-bottom: 100px;
+        }
+        .faq-item {
+            background: var(--bg-glass);
+            border: 1px solid var(--border-glass);
+            border-radius: 12px;
+            margin-bottom: 16px;
+            padding: 24px;
+            transition: var(--transition);
+        }
+        .faq-item:hover {
+            border-color: rgba(226, 184, 87, 0.3);
+        }
+        .faq-question {
+            font-family: var(--font-serif);
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 12px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .faq-question::after {
+            content: "+";
+            color: var(--accent-gold);
+            font-size: 1.2rem;
+        }
+        .faq-answer {
+            font-size: 0.95rem;
+            color: var(--text-muted);
+            line-height: 1.6;
+        }
+
+        /* Footer */
+        footer {
+            border-top: 1px solid var(--border-glass);
+            background: #04060a;
+            padding: 60px 0;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+        .footer-inner {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+        .footer-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            gap: 32px;
+        }
+        .footer-logo {
+            font-family: var(--font-serif);
+            font-size: 1.2rem;
+            color: var(--accent-gold);
+            text-decoration: none;
+            font-weight: 700;
+        }
+        .footer-info {
+            max-width: 450px;
+            font-size: 0.85rem;
+            line-height: 1.6;
+        }
+        .footer-links {
+            display: flex;
+            gap: 24px;
+            list-style: none;
+        }
+        .footer-links a {
+            color: var(--text-muted);
+            text-decoration: none;
+            transition: var(--transition);
+        }
+        .footer-links a:hover {
+            color: var(--accent-gold);
+        }
+        .footer-bottom {
+            border-top: 1px solid rgba(255,255,255,0.05);
+            padding-top: 24px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 16px;
+            font-size: 0.8rem;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none; /* Hamburger menu placeholder for simplified mobile view */
+            }
+            .hero {
+                padding: 80px 0 60px;
+            }
+            .intro-panel {
+                padding: 24px;
+            }
+            .advice-section {
+                padding: 28px;
+            }
+            .matrix-table th, .matrix-table td {
+                padding: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <nav class="nav-inner">
+                <a href="https://story.roomlab-dangsan.xyz" class="logo">
+                    ROOM LAB <span>| SEOUL</span>
+                </a>
+                <ul class="nav-links">
+                    <li><a href="https://story.roomlab-dangsan.xyz">홈</a></li>
+                    <li><a href="#comparison">업종별 비교</a></li>
+                    <li><a href="#matrix">선택 매트릭스</a></li>
+                    <li><a href="#advice">전문가 제언</a></li>
+                    <li><a href="#faq">자주 묻는 질문</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Editorial Section -->
+    <section class="hero">
+        <div class="container">
+            <span class="hero-tag">Executive Guide</span>
+            <h1>성공적인 비즈니스를 위한<br>서울 접대 장소 추천 & 업종 비교</h1>
+            <p>중요한 비즈니스 파트너와의 만남, 어설픈 장소 선택은 공들인 계약을 무너뜨릴 수 있습니다. 서울 주요 비즈니스 모임 장소의 실제 성격과 대안들을 투명하게 비교해 드립니다.</p>
+        </div>
+    </section>
+
+    <!-- Main Narrative & Comparison Content -->
+    <main class="container">
+        
+        <!-- Editorial Intro Panel -->
+        <div class="intro-panel">
+            <div class="intro-text">
+                <strong>"접대는 단순한 유흥이 아닌, 비즈니스 협상의 연장선입니다."</strong><br><br>
+                비즈니스 모임의 성격에 따라 필요한 공간의 분위기와 서비스 수준은 완전히 달라집니다. 어떤 날은 격식 있고 조용한 대화가 필요하고, 또 어떤 날은 경쾌하고 허물없는 소통이 필요하죠. 서울에서 비즈니스 접대 장소를 결정할 때 겪는 실수를 줄이기 위해, 가장 대표적인 업종들의 특성과 대안을 솔직하게 풀어보았습니다.
+            </div>
+            <div class="intro-anecdote">
+                실제 비즈니스 현장에서는 파트너의 성향(연령대, 직무, 성향 등)을 파악하는 것이 우선입니다. 트렌디한 감각을 선호하는 젊은 파트너에게 지나치게 무거운 정통 룸싸롱을 권하거나, 반대로 격식을 중시하는 임원진을 너무 캐주얼한 가라오케로 모시는 우를 범하지 않도록 가이드를 제시합니다.
+            </div>
+        </div>
+
+        <!-- Section: Comparison Grid -->
+        <section id="comparison">
+            <h2 class="section-title">주요 업종별 <span>특징 및 대안 비교</span></h2>
+            <div class="comparison-grid">
+                
+                <!-- Card 1: 정통 비즈니스 룸싸롱 -->
+                <div class="comp-card">
+                    <div>
+                        <span class="comp-tag">Traditional Luxury</span>
+                        <h3 class="comp-name">정통 비즈니스 룸싸롱</h3>
+                        <p class="comp-desc">최고의 격식과 엄격한 프라이버시가 보장되는 공간입니다. 주로 대기업 임원진, 정재계 인사들의 무거운 비즈니스 딜에 적합합니다.</p>
+                        <ul class="comp-features">
+                            <li>철저한 1:1 맞춤형 밀착 케어 서비스</li>
+                            <li>외부 노출이 완벽히 차단된 독채 구조</li>
+                            <li>고급 수입 위스키 및 품격 있는 안주 구성</li>
+                        </ul>
+                    </div>
+                    <span class="comp-badge">격식 중심 / 고예산</span>
+                </div>
+
+                <!-- Card 2: 셔츠룸 & 레깅스룸 -->
+                <div class="comp-card">
+                    <div>
+                        <span class="comp-tag">Casual Trend</span>
+                        <h3 class="comp-name">셔츠룸 / 레깅스룸</h3>
+                        <p class="comp-desc">최근 몇 년간 강남권에서 급부상한 트렌디한 형태입니다. 정형화된 비즈니스 룸싸롱보다 캐주얼하고 활동적인 분위기를 제공합니다.</p>
+                        <ul class="comp-features">
+                            <li>비교적 정형화된 시스템과 투명한 운영</li>
+                            <li>젊은 파트너십 및 캐주얼한 비즈니스에 적합</li>
+                            <li>부담을 덜어낸 유연한 미팅 진행 가능</li>
+                        </ul>
+                    </div>
+                    <span class="comp-badge">트렌디 / 합리적 예산</span>
+                </div>
+
+                <!-- Card 3: 멤버십 가라오케 -->
+                <div class="comp-card">
+                    <div>
+                        <span class="comp-tag">Friendly Gathering</span>
+                        <h3 class="comp-name">멤버십 가라오케</h3>
+                        <p class="comp-desc">친밀감을 형성하고 유쾌한 대화를 나누기에 최적화된 개방적 공간입니다. 격식을 덜어내고 유대감을 다질 때 추천합니다.</p>
+                        <ul class="comp-features">
+                            <li>세련된 인테리어와 우수한 사운드 시스템</li>
+                            <li>남녀 파트너 모두 편안하게 어울릴 수 있는 분위기</li>
+                            <li>다양한 주류 라인업 및 유연한 시간 조율</li>
+                        </ul>
+                    </div>
+                    <span class="comp-badge">친목 도모 / 미디엄 예산</span>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Section: Selection Matrix Table -->
+        <section id="matrix" class="matrix-section">
+            <h2 class="section-title">비즈니스 모임 <span>선택 매트릭스</span></h2>
+            <div class="matrix-wrapper">
+                <table class="matrix-table">
+                    <thead>
+                        <tr>
+                            <th>업종 구분</th>
+                            <th>추천 대상</th>
+                            <th>공간 분위기</th>
+                            <th>프라이버시 수준</th>
+                            <th>권장 예산 수준</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>정통 룸싸롱 / 텐프로</strong></td>
+                            <td>대기업 임원, 중요 해외 바이어</td>
+                            <td>중후하고 고급스러움</td>
+                            <td>최상 (단독 동선 확보)</td>
+                            <td>높음 (프리미엄 세팅)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>셔츠룸 / 비즈니스클럽</strong></td>
+                            <td>실무 책임자, 젊은 임원진</td>
+                            <td>활기차고 캐주얼함</td>
+                            <td>상 (프라이빗 룸)</td>
+                            <td>보통 (예측 가능 범위)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>멤버십 가라오케</strong></td>
+                            <td>팀 단위 회식, 친목 협력사</td>
+                            <td>트렌디하고 유연함</td>
+                            <td>중 (오픈형 룸 위주)</td>
+                            <td>중하 (유연한 조율)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Section: Editorial Advice -->
+        <section id="advice" class="advice-section">
+            <div class="advice-header">
+                <h3>실패 없는 접대를 위한 실무 팁</h3>
+            </div>
+            <div class="advice-content">
+                <p><strong>1. 목적에 따른 장소 이원화:</strong> 식사와 1차 미팅은 청담, 테헤란로 일대의 고급 한정식이나 일식 다이닝룸에서 조용하게 진행하는 것을 추천합니다. 이후 비즈니스의 합의 수준에 따라 2차 장소(비즈니스 룸 또는 가라오케)로 이동하는 동선이 가장 매끄럽습니다.</p>
+                <p><strong>2. 요일과 시간대 전략:</strong> 화요일과 목요일은 주요 비즈니스 모임이 가장 몰리는 날입니다. 더 세심한 서비스와 쾌적한 룸을 확보하기 위해서는 월요일이나 수요일을 공략하는 것도 훌륭한 대안입니다.</p>
+                <p><strong>3. 사전 조율의 중요성:</strong> 파트너의 주량, 선호하는 주류(위스키, 싱글몰트, 와인 등), 선호 분위기를 담당 담당자에게 미리 전달해 두면, 당일 현장에서 물 흐르듯 자연스러운 진행이 가능합니다.</p>
+            </div>
+        </section>
+
+        <!-- Section: FAQ -->
+        <section id="faq" class="faq-section">
+            <h2 class="section-title">자주 묻는 <span>질문 (FAQ)</span></h2>
+            
+            <div class="faq-item">
+                <div class="faq-question">Q1. 비즈니스 파트너가 외국인인 경우 어떤 장소를 추천하나요?</div>
+                <div class="faq-answer">
+                    외국인 바이어의 경우 한국 특유의 룸 문화에 생소할 수 있습니다. 격식을 차려야 한다면 최고급 호텔 바(Bar)나 프라이빗 다이닝룸이 좋으며, 한국식 유흥 문화를 경험시켜 주고 싶다면 트렌디하고 세련된 인테리어의 강남권 멤버십 가라오케를 추천합니다.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q2. 셔츠룸과 일반 룸싸롱의 가장 큰 차이점은 무엇인가요?</div>
+                <div class="faq-answer">
+                    가장 큰 차이는 진행 템포와 격식의 정도입니다. 정통 룸싸롱은 전통적인 비즈니스 대화와 조용하고 깊이 있는 접대에 최적화되어 있는 반면, 셔츠룸은 정해진 시스템 하에 보다 빠르고 활기찬 분위기에서 가볍게 즐기는 성격이 강합니다.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q3. 접대 장소 예약 시 반드시 체크해야 할 사항은?</div>
+                <div class="faq-answer">
+                    주차 및 발렛파킹 가능 여부, 룸 내부의 독립 음향 설비 여부, 그리고 최종 청구서에 포함되는 봉사료(T/C) 및 세금 구조를 사전에 명확히 확인하여 비즈니스 정산 시 혼선이 없도록 해야 합니다.
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-top">
+                    <div>
+                        <a href="https://story.roomlab-dangsan.xyz" class="footer-logo">ROOM LAB</a>
+                        <p class="footer-info" style="margin-top: 12px;">
+                            본 플랫폼은 서울 지역 비즈니스 접대 및 모임 공간의 객관적인 비교 분석 정보를 제공하는 정보형 블로그입니다. 성공적인 비즈니스 파트너십을 위한 최선의 선택을 돕습니다.
+                        </p>
+                    </div>
+                    <div>
+                        <ul class="footer-links">
+                            <li><a href="https://story.roomlab-dangsan.xyz">홈으로</a></li>
+                            <li><a href="#comparison">비교분석</a></li>
+                            <li><a href="#matrix">매트릭스</a></li>
+                            <li><a href="#faq">FAQ</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2024 ROOM LAB. All Rights Reserved. 비즈니스 정보 가이드라인 준수.</p>
+                    <p>Contact: info@story.roomlab-dangsan.xyz</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
