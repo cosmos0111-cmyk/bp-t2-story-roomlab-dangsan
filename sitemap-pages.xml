@@ -26,12 +26,22 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://story.roomlab-dangsan.xyz/posts/field_note-001-1o5muub.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://story.roomlab-dangsan.xyz/posts/field_note-003-1g5a6d.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://story.roomlab-dangsan.xyz/posts/guide-002-17ezwew.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://story.roomlab-dangsan.xyz/posts/major_compare-002-lzobty.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
