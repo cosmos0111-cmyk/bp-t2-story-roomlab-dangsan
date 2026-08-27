@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img">
+  <title>t2-story-roomlab-dangsan</title>
+  <rect width="64" height="64" rx="10" fill="hsl(64 69% 29%)"/>
+  <g transform="rotate(180 32 32)"><path d="M12 44 26 24l10 12 6-8 8 16Z" fill="hsl(132 68% 67%)"/><path d="M12 44 26 24l10 12" fill="none" stroke="hsl(64 24% 96%)" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/></g>
+</svg>
